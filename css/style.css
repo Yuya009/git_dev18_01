@@ -1,0 +1,269 @@
+/* ここから下に記載していく */
+@charset "utf-8";
+
+html{
+    font-size: 62.5%;
+    width: 1200px;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+.text-center{
+    text-align: center;
+}
+p{
+    line-height: 2;
+}
+/* header */
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+ul.header__nav{
+    display: flex;
+}
+.header__nav li{
+    margin-left: 40px;
+}
+
+/* body */
+body{
+    color: #222222;
+    font-size: 1.6rem;
+}
+/* hero-image */
+.hero-image{
+    position: relative;
+}
+.hero-image__text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate3d(-50%,-50%,0);
+    color: #fff;
+    font-size: 3.0rem;
+    text-align: center;
+    line-height: 40px;
+    white-space: nowrap
+}
+.image-top-text{
+    font-weight: bold;
+}
+
+/* about */
+.about{
+    padding: 60px 0;
+}
+.about__title{
+    font-size: 2.4rem;
+    font-weight: bold;
+    color: #ffd61a;
+    margin: 0 0 30px;
+}
+.sub__title{
+    font-size: 1.8rem;
+    margin: 0 0 60px;
+}
+.about__text40{
+    margin: 0 0 40px;
+    line-height: 2;
+}
+.about__text80{
+    margin: 0 0 80px;
+    line-height: 2;
+}
+.image-list{
+    display: flex;
+}
+
+/* course */
+.course{
+    padding: 0 0 60px 0;
+}
+.title{
+    font-size: 2.4rem;
+    font-weight: bold;
+    margin: 0 0 30px;
+}
+.course-text60{
+    margin: 0 0 60px;
+}
+.course-wrapper{
+    width: 100%;
+    margin: auto;
+}
+.course__list{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    background-color: #fafafa;
+}
+.course__item{
+    width: 50%;
+    height: 400px;
+}
+.course__item__img{
+    width: 50%;
+}
+.course__contents__r{
+    width: 480px;
+    height: 400px;
+    display: table;
+}
+.course__contents__l{
+    width: 480px;
+    height: 400px;
+    display: table;
+    margin: 0 0 0 auto;
+}
+.course__inner__r{
+    width: 480px;
+    display: table-cell;
+    vertical-align: middle;
+    padding: 0 0 0 50px;
+}
+.course__inner__l{
+    width: 480px;
+    display: table-cell;
+    vertical-align: middle;
+    padding: 0 50px 0 0;
+}
+.course__text{
+    font-size: 24px;
+    margin: 0 0 40px;
+    font-weight: bold;
+}
+
+/* news */
+.news{
+    padding: 0 0 60px 0;
+    width: 960px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.news-sub-title{
+    margin: 0 0 60px;
+}
+.news__list{
+    display: flex;
+    justify-content: space-between;
+    margin:  0 0 60px;
+}
+.news__item{
+    width: 300px;
+}
+.news__eyecatch{
+    margin: 0 0 30px;
+}
+.news__date{
+    margin: 24px;
+}
+.news__btn{
+    margin: 0 0 60px;
+}
+
+/* access */
+.access{
+    padding: 60px 0 0 0;
+    margin-bottom: 60px;
+    background-color: #fafafa;
+}
+.access__title{
+    font-size: 2.4rem;
+    font-weight: bold;
+    margin: 0 0 30px;
+}
+.access-p{
+    margin: 0 0 60px;
+}
+.access__list{
+    width: 750px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+}
+.access__item{
+    width: 50%;
+    line-height: 50px;
+    text-align: left;
+    margin: 0 0 30px;
+}
+
+/* contact */
+.contact{
+    padding: 60px 0 140px 0;
+}
+.contact__sub__title{
+    margin: 0 0 60px;
+}
+.contact30{
+    margin: 0 0 30px;
+}
+.contact70{
+    margin: 0 0 70px;
+}
+.table_box {
+  border-collapse: collapse;
+  margin: 0 auto 30px;
+  width: 640px;
+  table-layout: fixed;
+  color: #000;
+}
+.form-box{
+    display: flex;
+    flex-direction: column;
+}
+.table_item{
+  background-color: #fff;
+  border-bottom: 1px solid #bfbfbf;
+}
+.form-select{
+    padding:0 0 24px;
+}
+.table_name,.table_contents {
+  padding: 8px 0 8px 8px;
+  border-right: 1px solid #bfbfbf;
+  border-top: 1px solid #bfbfbf;
+  text-align: left;
+}
+.table_contents{
+    width: 391px;
+}
+
+table th:last-child,
+table td:last-child{
+  border-right: none;
+}
+.table_name{
+    padding: 8px 64px 8px 16px;
+    text-align: left;
+    border-top: 1px solid #bfbfbf;
+    border-right: 1px solid #bfbfbf;
+    vertical-align: top;
+    line-height: 1.5;
+}
+input.form-parts{
+    width: 328px;
+}
+.form-parts{
+    width: 328px;
+}
+.btn{
+    width: 300px;
+    height: 60px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #ffd61a;
+    border: none;
+}
+/* footer */
+footer{
+    width: 100%;
+    background-color: #707070;
+    padding: 30px 0;
+    color: #fff;
+}
